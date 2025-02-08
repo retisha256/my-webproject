@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+    <style>
+        /* Add your CSS styles here */
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url(wall.jpg);
+}
+.container{
+    width: 410px;
+}
+.container h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    color: azure;
+    text-align: center;
+}
+
+.container.input-box{
+    width: 100%;
+    height: 50px; 
+    background-color: salmon;
+    margin: 30px 0;
+}
+.input-box input{
+width: 100%;
+height: 100%; 
+background: transparent;
+border:none;
+outline: none;
+border: 2px solid rgba(255, 255, 255, 0.2);
+border-radius: 40px;
+}
+    </style>
+    
+</head>
+<body>
+ <!-- contact form  -->
+    <div class="container">
+       <form action="#">
+         <h1>GET HIRED</h1>
+         <div class="input-box">
+         <input type="text" value="" placeholder="Username"><i class="fa-solid fa-user"></i></input>
+         <br>
+           <br>
+          <input type="Email"value=""placeholder="Email"><i class="fa-regular fa-envelope"></i></input>
+         <br>
+         <br>
+         <input type="text"id="phone"class="contact"name="phoneNumber "placeholder="+256"><i class="fa-solid fa-phone-volume"></i>
+         <br><br>
+          <label for="file">Attach your CV</label>
+          <input type="file" id="file" name="my files"required ><i class="fa-solid fa-file"></i>
+          <!-- submit  -->
+          <br><br>
+          <button type="submit"value="submit"class="btn">submit</button>
+          </form>
+
+        </div>
+    </div>
+ <br><br><br><br>
+ <br><br><br><br>
+ <br><br><br><br>
+ <br><br><br><br>
+ 
+ 
+ 
+ 
+ 
+    
+</body>
+</html>
